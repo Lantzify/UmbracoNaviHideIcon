@@ -1,0 +1,10 @@
+﻿.umbracoNaviHideIcon .umb-tree-item__inner::after {
+	color: #f2f3f4;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 2px solid hsla(0,0%,100%,.8);
+}
