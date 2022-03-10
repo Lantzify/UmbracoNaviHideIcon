@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoNaviHideIcon", "UmbracoNaviHideIcon\UmbracoNaviHideIcon.csproj", "{2906C379-EB89-4D76-ACE2-23353AD7999D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoNaviHideIcon.Web", "UmbracoNaviHideIcon.Web\UmbracoNaviHideIcon.Web.csproj", "{7CFC8418-68EB-4E6B-8E23-05C791B40DAB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{2906C379-EB89-4D76-ACE2-23353AD7999D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2906C379-EB89-4D76-ACE2-23353AD7999D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2906C379-EB89-4D76-ACE2-23353AD7999D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CFC8418-68EB-4E6B-8E23-05C791B40DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CFC8418-68EB-4E6B-8E23-05C791B40DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CFC8418-68EB-4E6B-8E23-05C791B40DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CFC8418-68EB-4E6B-8E23-05C791B40DAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
