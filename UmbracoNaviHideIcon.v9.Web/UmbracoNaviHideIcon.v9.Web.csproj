@@ -19,55 +19,25 @@
     <ItemGroup>
         <Content Include="App_Plugins/**" CopyToOutputDirectory="Always" />
         <Content Include="umbraco/**" CopyToOutputDirectory="Always" />
+        <Compile Remove="umbraco\Data\TEMP\**" />
         <Content Remove="umbraco/Data/**" />
         <Content Remove="umbraco/Logs/**" />
         <Content Remove="umbraco/mediacache/**" />
         <Content Remove="umbraco/models/**" />
+        <Content Remove="umbraco\Data\TEMP\**" />
         <Compile Include="umbraco/models/**" Exclude="**/*.flag" />
     </ItemGroup>
 
 
 
     <ItemGroup>
-      <Compile Include="umbraco\Data\TEMP\InMemoryAuto\all.generated.cs" />
-      <Compile Include="umbraco\Data\TEMP\InMemoryAuto\models.generated.cs" />
+      <EmbeddedResource Remove="umbraco\Data\TEMP\**" />
+      <None Remove="umbraco\Data\TEMP\**" />
     </ItemGroup>
 
 
 
     <ItemGroup>
-      <Content Include="umbraco\Data\TEMP\DistCache\ad0bd220efdf417755465b15eee37ba9b240c4dd-lastsynced.txt" />
-      <Content Include="umbraco\Data\TEMP\MediaCache\f\4\1\9\0\8\7\8\f4190878.jpg" />
-      <Content Include="umbraco\Data\TEMP\MediaCache\f\9\0\b\d\d\1\a\f90bdd1a.jpg" />
-    </ItemGroup>
-
-
-
-    <ItemGroup>
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\segments.gen" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\segments_6" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\write.lock" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\_4.cfe" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\_4.cfs" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\_4.si" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\segments.gen" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\segments_6" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\write.lock" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\_4.cfe" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\_4.cfs" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\_4.si" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\MembersIndex\segments.gen" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\MembersIndex\segments_2" />
-      <None Include="umbraco\Data\TEMP\ExamineIndexes\MembersIndex\write.lock" />
-      <None Include="umbraco\Data\TEMP\InMemoryAuto\all.dll.path" />
-      <None Include="umbraco\Data\TEMP\InMemoryAuto\Compiled\generated.cs19d674204ac8a6399b6722b3abd097548546d229.dll" />
-      <None Include="umbraco\Data\TEMP\InMemoryAuto\models.hash" />
-      <None Include="umbraco\Data\TEMP\MediaCache\f\4\1\9\0\8\7\8\f4190878.meta" />
-      <None Include="umbraco\Data\TEMP\MediaCache\f\9\0\b\d\d\1\a\f90bdd1a.meta" />
-      <None Include="umbraco\Data\TEMP\NuCache\NuCache.Content.db" />
-      <None Include="umbraco\Data\TEMP\NuCache\NuCache.Media.db" />
-      <None Include="umbraco\Data\TEMP\TypesCache\umbraco-types.DESKTOP-IT0MUSH.hash" />
-      <None Include="umbraco\Data\TEMP\TypesCache\umbraco-types.DESKTOP-IT0MUSH.list" />
       <None Include="umbraco\Data\Umbraco.mdf" />
       <None Include="umbraco\Data\Umbraco_log.ldf" />
     </ItemGroup>
@@ -76,13 +46,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\UmbracoNaviHideIcon\UmbracoNaviHideIcon.csproj" />
-    </ItemGroup>
-
-
-
-    <ItemGroup>
-      <Folder Include="umbraco\Data\TEMP\FileUploads\" />
-      <Folder Include="umbraco\Data\TEMP\Install\" />
     </ItemGroup>
 
     <!-- Set this to true if ModelsBuilder mode is not InMemoryAuto-->
