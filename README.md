@@ -5,7 +5,7 @@ UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content no
 [![Nuget](https://img.shields.io/nuget/dt/UmbracoNaviHideIcon?color=2346c018&logo=Nuget)](https://www.nuget.org/packages/MoveDictionaries)
 [![Umbraco](https://img.shields.io/badge/our-umbraco-%233544b1)](https://our.umbraco.com/packages/backoffice-extensions/umbraconavihideicon/)
 
-![preview](assets/preview.png)
+![preview](assets/preview.PNG)
 
 ## Installation
 
