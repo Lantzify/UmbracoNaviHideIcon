@@ -10,7 +10,7 @@ UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content no
 ## Installation
 
 ### Umbraco v8
-You can install UmbracoNaviHideIcon for umbraco v8 via Nuget.Backoffice installation comming soon.
+You can install UmbracoNaviHideIcon for umbraco v8 via Nuget Or via Umbraco backoffice!
 ```
 PM> Install-Package UmbracoNaviHideIcon
 ```
