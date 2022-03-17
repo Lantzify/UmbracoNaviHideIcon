@@ -54,7 +54,6 @@ namespace UmbracoNaviHideIcon
 					if (umbNode != null && !umbNode.IsVisible())
 					{
 						node.CssClasses.Add("umbracoNaviHideIcon");
-						node.CssClasses.Add("v8");
 					}
 				}
 			}

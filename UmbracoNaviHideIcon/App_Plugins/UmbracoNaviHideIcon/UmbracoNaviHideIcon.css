@@ -21,10 +21,5 @@
 
 .umbracoNaviHideIcon.current > .umb-tree-item__inner > .umb-tree-item__annotation,
 .umbracoNaviHideIcon .is-container.current > .umb-tree-item__inner > .umb-tree-item__annotation {
-	background-color: #fee4e1;
-}
-
-.umbracoNaviHideIcon.v8.current > .umb-tree-item__inner > .umb-tree-item__annotation,
-.umbracoNaviHideIcon.v8.is-container.current > .umb-tree-item__inner > .umb-tree-item__annotation {
-	background-color: #f5c1bc;
+	background-color: inherit;
 }
