@@ -1,6 +1,7 @@
 {
     "source": "UmbracoNaviHideIcon/App_Plugins/UmbracoNaviHideIcon",
     "sites": [
+        "UmbracoNaviHideIcon.v10.Web/App_Plugins/UmbracoNaviHideIcon",
         "UmbracoNaviHideIcon.v9.Web/App_Plugins/UmbracoNaviHideIcon",
         "UmbracoNaviHideIcon.v8.Web/App_Plugins/UmbracoNaviHideIcon"
     ]

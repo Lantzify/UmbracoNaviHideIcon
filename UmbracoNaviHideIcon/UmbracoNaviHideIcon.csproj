@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-			  <TargetFrameworks>net472;net50</TargetFrameworks>
+			  <TargetFrameworks>net472;net50;net60</TargetFrameworks>
     </PropertyGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
@@ -11,11 +11,16 @@
 		<PackageReference Include="Umbraco.Cms.Web.Website" Version="9.0.1" />
 		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="9.0.1" />
 	</ItemGroup>
+	
+	<ItemGroup Condition="'$(TargetFramework)' == 'net60'">
+		<PackageReference Include="Umbraco.Cms.Web.Website" Version="10.1.0" />
+		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.1.0" />
+	</ItemGroup>
 
 	<!-- nuget package stuff -->
 	<PropertyGroup>
 		<PackageId>UmbracoNaviHideIcon</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Title>UmbracoNaviHideIcon</Title>
 		<Authors>Lantzify</Authors>
 		<Owners>Lantzify</Owners>
