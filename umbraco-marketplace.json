@@ -1,0 +1,24 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+    "AuthorDetails": {
+        "Name": "Lantzify",
+        "ImageUrl": "https://github.com/lantzify.png "
+    },
+    "Category": "Editor Tools",
+    "PackageType": "Package",
+    "LicenseTypes": [
+        "Free"
+    ],
+    "Title": "UmbracoNaviHideIcon",
+    "Description": "UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content nodes that are not visible on the front-end.",
+    "IssueTrackerUrl": "https://github.com/Lantzify/UmbracoNaviHideIcon/issues",
+    "PackagesByAuthor": [
+        "uSupport"
+    ],
+    "Screenshots": [
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/UmbracoNaviHideIcon/master/assets/preview.PNG",
+            "Caption": "Preview"
+        }
+    ]
+}

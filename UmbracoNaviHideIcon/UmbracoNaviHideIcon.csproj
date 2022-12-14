@@ -20,19 +20,17 @@
 	<!-- nuget package stuff -->
 	<PropertyGroup>
 		<PackageId>UmbracoNaviHideIcon</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<Title>UmbracoNaviHideIcon</Title>
 		<Authors>Lantzify</Authors>
 		<Owners>Lantzify</Owners>
 		<PackageIconUrl></PackageIconUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Lantzify/UmbracoNaviHideIcon</PackageProjectUrl>
-		<PackageTags>Umbraco</PackageTags>
+		<PackageTags>Umbraco umbraco-marketplace</PackageTags>
 		<RepositoryUrl>https://github.com/Lantzify/UmbracoNaviHideIcon</RepositoryUrl>
 		<Description>UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content nodes that are not visible on the front-end</Description>
 		<Summary>UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content nodes that are not visible on the front-end</Summary>
-		<Tags>umbraco</Tags>
-		<releaseNotes>Moved icon</releaseNotes>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
