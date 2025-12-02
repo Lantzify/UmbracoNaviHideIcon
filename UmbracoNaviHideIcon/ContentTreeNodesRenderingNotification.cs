@@ -1,19 +1,11 @@
-﻿#if NETCOREAPP
-using Umbraco.Cms.Core;
+﻿using Umbraco.Cms.Core;
+using Umbraco.Extensions;
+using Umbraco.Cms.Core.Web;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Notifications;
-using Umbraco.Cms.Core.Web;
-using Umbraco.Extensions;
-#else
-using Umbraco.Web;
-using Umbraco.Web.Trees;
-#endif
-
-
 
 namespace UmbracoNaviHideIcon
 {
-#if NETCOREAPP
 	public class ContentTreeNodesRenderingNotification : INotificationHandler<TreeNodesRenderingNotification>
 	{
 		private readonly IUmbracoContextFactory _umbracoContextFactory;
@@ -34,30 +26,9 @@ namespace UmbracoNaviHideIcon
 						{
 							node.CssClasses.Add("umbracoNaviHideIcon");
 						}
-					}
-					
+					}					
 				}
 			}
 		}
 	}
-
-#else
-	public static class ContentTreeNodesRenderingNotification
-	{
-		public static void TreeControllerBase_TreeNodesRendering(TreeControllerBase sender, TreeNodesRenderingEventArgs e)
-		{
-			if (sender.TreeAlias.Equals("content"))
-			{
-				foreach (var node in e.Nodes)
-				{
-					var umbNode = sender.UmbracoContext.Content.GetById(int.Parse(node.Id.ToString()));
-					if (umbNode != null && !umbNode.IsVisible())
-					{
-						node.CssClasses.Add("umbracoNaviHideIcon");
-					}
-				}
-			}
-		}
-	}
-#endif
 }

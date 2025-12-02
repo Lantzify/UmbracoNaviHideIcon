@@ -5,11 +5,7 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoNaviHideIcon", "UmbracoNaviHideIcon\UmbracoNaviHideIcon.csproj", "{2906C379-EB89-4D76-ACE2-23353AD7999D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoNaviHideIcon.v9.Web", "UmbracoNaviHideIcon.v9.Web\UmbracoNaviHideIcon.v9.Web.csproj", "{1F12A120-8EB9-488A-A45F-373DBCBF34A2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoNaviHideIcon.v8.Web", "UmbracoNaviHideIcon.v8.Web\UmbracoNaviHideIcon.v8.Web.csproj", "{3D0E09EA-95C3-4ECC-BF42-7DF5EB383D3D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoNaviHideIcon.v10.Web", "UmbracoNaviHideIcon.v10.Web\UmbracoNaviHideIcon.v10.Web.csproj", "{D5E049E3-3B2C-4612-9BC5-97EF8528C1C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoNaviHideIcon.v13.Web", "UmbracoNaviHideIcon.v13.Web\UmbracoNaviHideIcon.v13.Web.csproj", "{D5E049E3-3B2C-4612-9BC5-97EF8528C1C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +17,6 @@ Global
 		{2906C379-EB89-4D76-ACE2-23353AD7999D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2906C379-EB89-4D76-ACE2-23353AD7999D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2906C379-EB89-4D76-ACE2-23353AD7999D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F12A120-8EB9-488A-A45F-373DBCBF34A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F12A120-8EB9-488A-A45F-373DBCBF34A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F12A120-8EB9-488A-A45F-373DBCBF34A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F12A120-8EB9-488A-A45F-373DBCBF34A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D0E09EA-95C3-4ECC-BF42-7DF5EB383D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D0E09EA-95C3-4ECC-BF42-7DF5EB383D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D0E09EA-95C3-4ECC-BF42-7DF5EB383D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D0E09EA-95C3-4ECC-BF42-7DF5EB383D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D5E049E3-3B2C-4612-9BC5-97EF8528C1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5E049E3-3B2C-4612-9BC5-97EF8528C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E049E3-3B2C-4612-9BC5-97EF8528C1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
