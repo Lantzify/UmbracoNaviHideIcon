@@ -9,7 +9,7 @@ UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content no
 ![preview](assets/preview.PNG)
 
 ## Installation
-Versionning
+Versioning
 - 3.x.x is for Umbraco v17
 - 2.x.x is for Umbraco v13
 - 1.x.x is for Umbraco v8 - v10
