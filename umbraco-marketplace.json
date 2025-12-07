@@ -15,9 +15,14 @@
     "IssueTrackerUrl": "https://github.com/Lantzify/UmbracoNaviHideIcon/issues",
     "PackagesByAuthor": [
         "uSupport",
-        "AutoDictionaries"
+        "AutoDictionaries",
+        "AutoBlockList"
     ],
     "Screenshots": [
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/Lantzify/UmbracoNaviHideIcon/master/assets/preview.gif",
+            "Caption": "Preview"
+        },
         {
             "ImageUrl": "https://raw.githubusercontent.com/Lantzify/UmbracoNaviHideIcon/master/assets/preview.PNG",
             "Caption": "Preview"

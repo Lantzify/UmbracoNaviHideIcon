@@ -18,7 +18,7 @@
       "type": "icons",
       "name": "UmbracoNaviHideIcon",
       "alias": "umbracoNaviHideicons",
-      "js": "/App_Plugins/UmbracoNaviHideIcon/icons-umbraco-navi-hide-icon.js"
+      "js": "/App_Plugins/UmbracoNaviHideIcon/umbraco-navi-hide-icon.js"
     }
   ]
 }
