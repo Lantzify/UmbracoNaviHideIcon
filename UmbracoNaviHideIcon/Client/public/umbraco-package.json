@@ -1,0 +1,24 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "UmbracoNaviHideIcon",
+  "extensions": [
+    {
+      "type": "entitySign",
+      "kind": "icon",
+      "alias": "Umb.EntitySign.Document.UmbracoNaviHideIcon",
+      "name": "Umbraco Navi Hide Icon Document Sign",
+      "forEntityTypes": [ "document" ],
+      "forEntityFlags": [ "UmbracoNaviHideIconFlag" ],
+      "meta": {
+        "iconName": "icon-eye-off",
+        "label": "Hidden page"
+      }
+    },
+    {
+      "type": "icons",
+      "name": "UmbracoNaviHideIcon",
+      "alias": "umbracoNaviHideicons",
+      "js": "/App_Plugins/UmbracoNaviHideIcon/umbraco-navi-hide-icon.js"
+    }
+  ]
+}

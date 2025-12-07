@@ -1,17 +1,20 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+<Project Sdk="Microsoft.NET.Sdk.Razor">
     <PropertyGroup>
-			  <TargetFrameworks>net8.0</TargetFrameworks>
+			  <TargetFrameworks>net10.0</TargetFrameworks>
 				<StaticWebAssetBasePath>App_Plugins/UmbracoNaviHideIcon</StaticWebAssetBasePath>
     </PropertyGroup>
 
 		<ItemGroup>
-				<PackageReference Include="Umbraco.Cms.Web.Website" Version="13.0.0" />
-				<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.0.0" />
+				<PackageReference Include="Umbraco.Cms.Api.Management" Version="17.0.0" />
+		</ItemGroup>
+
+		<ItemGroup>
+		  <Folder Include="wwwroot\" />
 		</ItemGroup>
 
 	<PropertyGroup>
 		<PackageId>UmbracoNaviHideIcon</PackageId>
-		<Version>2.0.0</Version>
+		<Version>3.0.0</Version>
 		<Title>UmbracoNaviHideIcon</Title>
 		<Authors>Lantzify</Authors>
 		<Owners>Lantzify</Owners>
@@ -28,6 +31,6 @@
 
 		<ContentTargetFolders>content</ContentTargetFolders>
 
-		<PackageOutputPath>build/Release</PackageOutputPath>
+		<PackageOutputPath>./build/Release</PackageOutputPath>
 	</PropertyGroup>
 </Project>
