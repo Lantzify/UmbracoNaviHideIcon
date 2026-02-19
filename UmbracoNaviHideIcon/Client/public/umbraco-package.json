@@ -11,7 +11,7 @@
       "forEntityFlags": [ "UmbracoNaviHideIconFlag" ],
       "meta": {
         "iconName": "icon-eye-off",
-        "label": "#hidden_page"
+        "label": "#umbracoNavihide_hidden_page"
       }
     },
     {
@@ -27,7 +27,7 @@
       "meta": {
         "culture": "en",
         "localizations": {
-          "section": {
+          "umbracoNavihide": {
             "hidden_page": "Hidden"
           }
         }
@@ -35,12 +35,12 @@
     },
     {
       "type": "localization",
-      "alias": "UmbracoNaviHideIcon.Localize.Jp",
+      "alias": "UmbracoNaviHideIcon.Localize.Ja",
       "name": "UmbracoNaviHideIcon Japanese",
       "meta": {
-        "culture": "jp",
+        "culture": "ja",
         "localizations": {
-          "section": {
+          "umbracoNavihide": {
             "hidden_page": "非表示"
           }
         }
