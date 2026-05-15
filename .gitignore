@@ -259,4 +259,6 @@ ModelManifest.xml
 # ImageProcessor DiskCache 
 **/App_Data/cache/
 **/Media/
-/UmbracoNaviHideIcon/wwwroot/**
+src/UmbracoNaviHideIcon/wwwroot/**
+src/**/umbraco/**
+src/UmbracoNaviHideIcon.Web/appsettings.Development.json

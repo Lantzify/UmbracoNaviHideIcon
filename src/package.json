@@ -1,0 +1,13 @@
+{
+  "name": "umbraco-navi-hide-icon",
+  "private": true,
+  "version": "17.0.0",
+  "scripts": {
+    "install-client": "cd ./UmbracoNaviHideIcon/Client/ && npm install",
+    "build-client": "cd ./UmbracoNaviHideIcon/Client/ && npm run build",
+    "build-watch": "cd ./UmbracoNaviHideIcon/Client/ && npm run watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,5 +1,5 @@
 # UmbracoNaviHideIcon
-UmbracoNaviHide is a umbraco v8+ package that displays an icon on the content nodes that are not visible on the front-end 
+UmbracoNaviHide is a umbraco v17 package that displays an icon on the content nodes that are not visible on the front-end 
 
 ![version](https://img.shields.io/nuget/v/UmbracoNaviHideIcon?label=version)
 [![Nuget](https://img.shields.io/nuget/dt/UmbracoNaviHideIcon?color=2346c018&logo=Nuget)](https://www.nuget.org/packages/Umbraconavihideicon)
@@ -19,13 +19,6 @@ Versioning
 ```
 PM> dotnet add package UmbracoNaviHideIcon
 ```
-
-## Contributing
-
-If you would like to help me improve this package, feel free to create a pull request!
-Login details:
-- Email: admin@admin.com 
-- Password: password123
 
 ## Issues
 

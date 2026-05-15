@@ -15,19 +15,19 @@ jobs:
         with:
           node-version: '24'
           cache: 'npm'
-          cache-dependency-path: 'UmbracoNaviHideIcon/Client/package-lock.json'
+          cache-dependency-path: 'src/UmbracoNaviHideIcon/Client/package-lock.json'
       
       - name: Install frontend dependencies
         run: npm ci
-        working-directory: UmbracoNaviHideIcon/Client
+        working-directory: src/UmbracoNaviHideIcon/Client
       
       - name: Build frontend assets
         run: npm run build
-        working-directory: UmbracoNaviHideIcon/Client
+        working-directory: src/UmbracoNaviHideIcon/Client
 
       - name: Build project
-        run: dotnet build --configuration Release UmbracoNaviHideIcon
+        run: dotnet build --configuration Release src/UmbracoNaviHideIcon/UmbracoNaviHideIcon.csproj
       - name: Package files
-        run: dotnet pack --configuration Release  UmbracoNaviHideIcon /p:Version=${{github.ref_name}}
+        run: dotnet pack --configuration Release  src/UmbracoNaviHideIcon/UmbracoNaviHideIcon.csproj /p:Version=${{github.ref_name}}
       - name: Publish the package
-        run: dotnet nuget push UmbracoNaviHideIcon/build/Release/UmbracoNaviHideIcon.${{github.ref_name}}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.PRIVATE_NUGET_KEY }}
+        run: dotnet nuget push src/UmbracoNaviHideIcon/build/Release/UmbracoNaviHideIcon.${{github.ref_name}}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.PRIVATE_NUGET_KEY }}
