@@ -16,7 +16,8 @@
     "PackagesByAuthor": [
         "uSupport",
         "AutoDictionaries",
-        "AutoBlockList"
+        "AutoBlockList",
+        "EasyEntityFlags"
     ],
     "Screenshots": [
         {
