@@ -1,5 +1,5 @@
 # UmbracoNaviHideIcon
-UmbracoNaviHide is a umbraco v17 package that displays an icon on the content nodes that are not visible on the front-end 
+UmbracoNaviHide is a umbraco v17+ package that displays an icon on the content nodes that are not visible on the front-end 
 
 ![version](https://img.shields.io/nuget/v/UmbracoNaviHideIcon?label=version)
 [![Nuget](https://img.shields.io/nuget/dt/UmbracoNaviHideIcon?color=2346c018&logo=Nuget)](https://www.nuget.org/packages/Umbraconavihideicon)
@@ -11,6 +11,7 @@ UmbracoNaviHide is a umbraco v17 package that displays an icon on the content no
 
 ## Installation
 Versioning
+- 4.x.x is for Umbraco v18
 - 3.x.x is for Umbraco v17
 - 2.x.x is for Umbraco v13
 - 1.x.x is for Umbraco v8 - v10

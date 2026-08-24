@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Clean" Version="7.0.5" />
-    <PackageReference Include="Umbraco.Cms" Version="17.2.0" />
+    <PackageReference Include="Clean" Version="8.0.0" />
+    <PackageReference Include="Umbraco.Cms" Version="18.0.0" />
   </ItemGroup>
 
   <!-- Force Windows to use ICU. Otherwise Windows 10 2019H1+ will do it, but older Windows 10 and most, if not all, Windows Server editions will run NLS -->
