@@ -5,6 +5,8 @@ on:
       - published
 jobs:
   release_name:
+    permissions:
+      id-token: write
     name: Publish NuGet Package
     runs-on: ubuntu-latest
     steps:
@@ -17,6 +19,12 @@ jobs:
           cache: 'npm'
           cache-dependency-path: 'src/UmbracoNaviHideIcon/Client/package-lock.json'
       
+      - name: NuGet login (OIDC → temp API key)
+        uses: NuGet/login@v1
+        id: login
+        with:
+          user: ${{secrets.NUGET_USER}}
+
       - name: Install frontend dependencies
         run: npm ci
         working-directory: src/UmbracoNaviHideIcon/Client
@@ -30,4 +38,4 @@ jobs:
       - name: Package files
         run: dotnet pack --configuration Release  src/UmbracoNaviHideIcon/UmbracoNaviHideIcon.csproj /p:Version=${{github.ref_name}}
       - name: Publish the package
-        run: dotnet nuget push src/UmbracoNaviHideIcon/build/Release/UmbracoNaviHideIcon.${{github.ref_name}}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.PRIVATE_NUGET_KEY }}
+        run: dotnet nuget push src/UmbracoNaviHideIcon/build/Release/UmbracoNaviHideIcon.${{github.ref_name}}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{steps.login.outputs.NUGET_API_KEY }}
